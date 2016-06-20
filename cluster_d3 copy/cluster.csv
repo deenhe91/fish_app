@@ -1,0 +1,200 @@
+,Fish,Current_BB,Current_F,cluster,cluster_names,name
+467,SWORDEPAC,8.96,0.06,Eat Me,Eat Me,Swordfish Eastern Pacific
+344,ESOLEPCOAST,6.42,0.0741,Eat Me,Eat Me,English sole Pacific Coast
+398,RSARDINWA,5.79,3.27,Eat Me,Eat Me,Round Sardinella West Africa
+402,NZLINGLIN5-6,4.33,0.0412,Eat Me,Eat Me,New Zealand ling New Zealand Areas LIN 5 and 6
+73,ATOOTHFISHRS,4.03,0.322,Eat Me,Eat Me,Antarctic toothfish Ross Sea
+35,ARFLOUNDPCOAST,3.81,0.21,Eat Me,Eat Me,Arrowtooth flounder Pacific Coast
+108,PTOOTHFISHPEI,3.6,0.006490000000000001,Eat Me,Eat Me,Patagonian toothfish South Africa Subantarctic Prince Edward Islands
+333,DSOLEPCOAST,3.44,0.124,Eat Me,Eat Me,Dover sole Pacific Coast
+32,KMACKGM,3.33,1.23,Eat Me,Eat Me,King mackerel Gulf of Mexico
+343,ARFLOUNDBSAI,3.16,0.0759,Eat Me,Eat Me,Arrowtooth flounder Bering Sea and Aleutian Islands
+204,CALSCORPSCAL,3.15,0.441,Eat Me,Eat Me,California scorpionfish Southern California
+437,NZLINGLIN3-4,3.13,0.12300000000000001,Eat Me,Eat Me,New Zealand ling New Zealand Areas LIN 3 and 4
+411,ARFLOUNDGA,2.99,0.0787,Eat Me,Eat Me,Arrowtooth flounder Gulf of Alaska
+104,RKCRABPI,2.93,0.28,Eat Me,Eat Me,Red king crab Pribilof Islands
+470,GRNSTROCKPCOAST,2.81,0.0044,Eat Me,Eat Me,Greenstriped rockfish Pacific Coast
+494,ATLCROAKMATLC,2.78,0.282,Eat Me,Eat Me,Atlantic croaker Mid-Atlantic Coast
+174,FLSOLEGA,2.6,0.036,Eat Me,Eat Me,Flathead sole Gulf of Alaska
+302,KMACKSATLC,2.59,0.168,Eat Me,Eat Me,King mackerel Southern Atlantic Coast
+33,DSOLEGA,2.57,0.0483,Eat Me,Eat Me,Dover sole Gulf of Alaska
+268,LINGCODNPCOAST,2.56,0.253,Eat Me,Eat Me,Lingcod Northern Pacific Coast
+389,GOPHERSPCOAST,2.55,0.345,Eat Me,Eat Me,Gopher rockfish Southern Pacific Coast
+405,NZLINGLIN72,2.49,0.32299999999999995,Eat Me,Eat Me,New Zealand ling New Zealand Area LIN 72
+335,CTRACSA,2.48,0.171,Eat Me,Eat Me,Cape horse mackerel South Africa South coast
+128,SOUTHHAKESA,2.4,0.10800000000000001,Eat Me,Eat Me,Southern hake Sub-Antarctic
+403,CABEZSCAL,2.36,0.182,Eat Me,Eat Me,Cabezon Southern California
+480,NRSOLEEBSAI,2.33,0.231,Eat Me,Eat Me,Northern rock sole Eastern Bering Sea and Aleutian Islands
+93,PTOOTHFISHMI,2.3,0.19399999999999998,Eat Me,Eat Me,Patagonian toothfish Macquarie Island
+59,ARGANCHOSARG,2.28,0.0353,Eat Me,Eat Me,Argentine anchoita Southern Argentina
+331,BLACKROCKSPCOAST,2.23,0.327,Eat Me,Eat Me,Black rockfish Southern Pacific Coast
+133,TARAKNZ,2.22,0.7659999999999999,Eat Me,Eat Me,Tarakihi New Zealand
+122,NZLINGLIN7WC,2.21,0.134,Eat Me,Eat Me,New Zealand ling New Zealand Area LIN 7WC - WCSI
+16,BTIPSHARGM,2.19,0.0775,Eat Me,Eat Me,New Zealand ling New Zealand Area LIN 6b
+390,NZLINGLIN6b,2.19,0.113,Eat Me,Eat Me,Longspine thornyhead Pacific Coast
+25,LSTHORNHPCOAST,2.19,0.14300000000000002,Eat Me,Eat Me,Blacktip shark Gulf of Mexico
+103,POLL5YZ,2.15,0.28,Eat Me,Eat Me,Pollock NAFO-5YZ
+374,PATGRENADIERSARG,2.15,0.595,Eat Me,Eat Me,Patagonian grenadier Southern Argentina
+379,SNROCKPCOAST,2.05,0.0578,Eat Me,Eat Me,Splitnose Rockfish Pacific Coast
+153,FLSOLEBSAI,2.04,0.166,Eat Me,Eat Me,Flathead sole Bering Sea and Aleutian Islands
+52,HOKIENZ,1.99,0.382,Avoid Me,Never Eat Me,Hoki Eastern New Zealand
+29,TIGERFLATSE,1.99,0.547,Avoid Me,Never Eat Me,Tiger flathead Southeast Australia
+84,CHILISPCOAST,1.96,0.0345,Avoid Me,Never Eat Me,Chilipepper Southern Pacific Coast
+498,OROUGHYCR,1.96,0.41700000000000004,Avoid Me,Never Eat Me,Orange Roughy Chatham Rise
+23,ALBAMED,1.91,0.06,Avoid Me,Never Eat Me,Shallow-water cape hake South Africa
+179,CHAKESA,1.91,1.09,Avoid Me,Never Eat Me,Albacore tuna Mediterranean
+469,SCMPBP,1.89,0.253,Avoid Me,Never Eat Me,Scampi Bay of Plenty
+64,REDFISHSPP3LN,1.88,0.0407,Avoid Me,Never Eat Me,Redfish species NAFO 3LN
+10,PCODGA,1.84,0.5489999999999999,Avoid Me,Never Eat Me,Spanish mackerel Gulf of Mexico
+415,SPANMACKGM,1.84,0.33299999999999996,Avoid Me,Never Eat Me,Pacific cod Gulf of Alaska
+14,CABEZNCAL,1.82,0.222,Avoid Me,Never Eat Me,Cabezon Northern California
+105,BLACKROCKNPCOAST,1.77,0.28,Avoid Me,Never Eat Me,Black rockfish Northern Pacific Coast
+493,LNOSESKAPCOAST,1.76,0.8,Avoid Me,Never Eat Me,Longnose skate Pacific Coast
+348,YSOLEBSAI,1.75,0.615,Avoid Me,Never Eat Me,Yellowfin sole Bering Sea and Aleutian Islands
+81,BUTTERGOMCHATT,1.74,0.0247,Avoid Me,Never Eat Me,Atlantic butterfish Gulf of Maine / Cape Hatteras
+425,ALPLAICBSAI,1.69,0.177,Avoid Me,Never Eat Me,Alaska plaice Bering Sea and Aleutian Islands
+463,SSTHORNHPCOAST,1.68,0.265,Avoid Me,Never Eat Me,Shortspine thornyhead Pacific Coast
+50,YEGROUPGM,1.67,0.68,Avoid Me,Never Eat Me,Yellowedge grouper Gulf of Mexico
+422,HERRNWATLC,1.66,0.33899999999999997,Avoid Me,Never Eat Me,Atlantic herring Northwestern Atlantic Coast
+325,SCMPWHB,1.65,0.335,Avoid Me,Never Eat Me,Scampi Wairapa/Hawke Bay
+365,AUSSALMONNZ,1.64,0.32799999999999996,Avoid Me,Never Eat Me,Yellowtail Flounder NAFO 3LNO
+456,YELL3LNO,1.64,0.485,Avoid Me,Never Eat Me,Australian salmon New Zealand
+83,LINGCODSPCOAST,1.63,0.0932,Avoid Me,Never Eat Me,Pacific Ocean perch Eastern Bering Sea and Aleutian Islands
+447,WPOLLWBS,1.63,0.96,Avoid Me,Never Eat Me,Lingcod Southern Pacific Coast
+388,PERCHEBSAI,1.63,0.345,Avoid Me,Never Eat Me,Walleye pollock Western Bering Sea
+146,SURFMATLC,1.62,0.18100000000000002,Avoid Me,Never Eat Me,Atlantic surfclam Mid-Atlantic Coast
+91,NROCKGA,1.62,0.596,Avoid Me,Never Eat Me,Northern rockfish Gulf of Alaska
+135,NROCKBSAI,1.61,0.312,Avoid Me,Never Eat Me,Northern rockfish Bering Sea and Aleutian Islands
+229,SMOOTHOREOCR,1.59,1.03,Avoid Me,Never Eat Me,Smooth oreo Chatham Rise
+22,GRSPROCKSCAL,1.59,0.11699999999999999,Avoid Me,Never Eat Me,Greenspotted rockfish Pacific Coast South
+272,VSNAPGM,1.53,0.602,Avoid Me,Never Eat Me,Vermilion snapper Gulf of Mexico
+0,STMARLINNEPAC,1.52,0.0754,Avoid Me,Never Eat Me,Striped marlin Northeast Pacific
+332,DEEPFLATHEADSE,1.51,0.327,Avoid Me,Never Eat Me,Deepwater flathead Southeast Australia
+312,ATKABSAI,1.5,0.665,Avoid Me,Never Eat Me,Atka mackerel Bering Sea and Aleutian Islands
+270,STFLOUNSPCOAST,1.49,0.253,Avoid Me,Never Eat Me,Starry flounder Southern Pacific Coast
+254,GHALBSAI,1.48,0.053,Avoid Me,Never Eat Me,Greenland turbot Bering Sea and Aleutian Islands
+396,PANCHPERUNC,1.47,0.54,Avoid Me,Never Eat Me,Peruvian anchoveta North-Central Peru
+203,RKCRABNS,1.47,1.98,Avoid Me,Never Eat Me,Red king crab Norton Sound
+74,PAUANPAU5A,1.45,0.643,Avoid Me,Never Eat Me,Black Foot Paua NZ North PAUA5A
+125,PHALNPAC,1.45,0.134,Avoid Me,Never Eat Me,Pacific halibut North Pacific
+26,BKINGCRABSMI,1.45,0.14300000000000002,Avoid Me,Never Eat Me,Blue king crab Saint Matthews Island
+216,TREVALLYTRE7,1.44,0.83,Avoid Me,Never Eat Me,Trevally New Zealand Areas TRE 7
+372,GSTRGZRSTA7,1.43,1.28,Avoid Me,Never Eat Me,Black Oreo Pukaki Rise
+274,BLACKOREOPR,1.43,3.5,Never Eat Me,Avoid Me,Giant stargazer NZ Area STA7
+147,SNOSESHARATL,1.42,0.721,Avoid Me,Never Eat Me,Atlantic sharpnose shark Atlantic
+27,HOKIWNZ,1.42,0.547,Avoid Me,Never Eat Me,Hoki Western New Zealand
+431,SMOOTHOREOWECR,1.4,0.494,Avoid Me,Never Eat Me,Black Grouper Gulf of Mexico and South Atlantic
+382,BLACKGROUPERGMSATL,1.4,0.5,Avoid Me,Never Eat Me,Smooth oreo West end of Chatham Rise
+381,ALBASPAC,1.39,0.358,Avoid Me,Never Eat Me,Albacore tuna South Pacific Ocean
+149,WPOLLNSO,1.38,0.84,Avoid Me,Never Eat Me,Walleye pollock Northern Sea of Okhotsk
+288,SCALL5ZMAB,1.37,0.667,Avoid Me,Never Eat Me,Canary rockfish West Coast of Vancouver Island and Straight of Georgia and Queen Charlotte Islands
+421,CROCKWCVANISOGQCI,1.37,0.737,Avoid Me,Never Eat Me,Sea scallop Georges Bank and Mid-Atlantic Bight
+460,YFINCWPAC,1.37,0.82,Avoid Me,Never Eat Me,Yellowfin tuna Central Western Pacific
+214,SMOOTHOREOBP,1.35,1.42,Avoid Me,Never Eat Me,Pacific ocean perch Gulf of Alaska
+138,POPERCHGA,1.35,0.614,Avoid Me,Never Eat Me,Smooth Oreo Bounty Plateau
+429,SPSDOGPCOAST,1.34,2.5,Never Eat Me,Avoid Me,Haddock Georges Bank
+224,HADGB,1.34,0.462,Avoid Me,Never Eat Me,Pacific cod Bering Sea and Aleutian Islands
+383,PCODBSAI,1.34,0.774,Avoid Me,Never Eat Me,Spotted spiny dogfish Pacific Coast
+152,CABEZORECOAST,1.31,0.5589999999999999,Avoid Me,Never Eat Me,Cabezon Oregon Coast
+292,FTOOTHSHARATL,1.3,0.0857,Avoid Me,Never Eat Me,Scup Atlantic Coast
+262,BGROCKPCOAST,1.3,0.517,Avoid Me,Never Eat Me,Finetooth shark Atlantic
+246,SCUPNWATLC,1.3,0.305,Avoid Me,Never Eat Me,Blackgill rockfish  Pacific Coast
+488,KELPGREENLINGORECOAST,1.28,0.593,Avoid Me,Never Eat Me,Kelp greenling Oregon Coast
+345,WROCKPCOAST,1.28,0.0187,Avoid Me,Never Eat Me,Widow rockfish Pacific Coast
+58,BCRABCHESB,1.27,0.568,Avoid Me,Never Eat Me,Red king crab Bristol Bay
+158,RKCRABBB,1.27,1.05,Avoid Me,Never Eat Me,Red grouper Gulf of Mexico
+336,RGROUPGM,1.27,0.727,Avoid Me,Never Eat Me,Blue Crab Chesapeake Bay
+253,HERRRIGA,1.26,1.23,Avoid Me,Never Eat Me,Herring ICES 28
+483,PHAKEPCOAST,1.23,0.866,Avoid Me,Never Eat Me,Pacific hake Pacific Coast
+298,GRSPROCKNCAL,1.22,0.0,Avoid Me,Never Eat Me,Greenspotted rockfish Pacific Coast North
+171,BIGEYEWPO,1.21,1.38,Avoid Me,Never Eat Me,Bigeye tuna Western Pacific Ocean
+397,SPANMACKSATLC,1.2,3.63,Never Eat Me,Avoid Me,Pacific cod Hecate Strait
+218,PCODHS,1.2,0.21899999999999997,Avoid Me,Never Eat Me,Spanish mackerel Southern Atlantic Coast
+484,GAGSATLC,1.17,1.36,Avoid Me,Never Eat Me,Gag Southern Atlantic coast
+76,PAUASPAU5A,1.16,1.06,Avoid Me,Never Eat Me,Bonnethead shark Atlantic
+173,BHEADSHARATL,1.16,0.507,Avoid Me,Never Eat Me,Black Foot Paua NZ South PAUA5A
+477,SABLEFPCOAST,1.13,3.5,Never Eat Me,Avoid Me,Sablefish Pacific Coast
+409,MUTSNAPSATLCGM,1.13,0.531,Avoid Me,Never Eat Me,Mutton snapper Southern Atlantic coast and Gulf of Mexico
+485,GTRIGGM,1.12,0.956,Avoid Me,Never Eat Me,Gray triggerfish Gulf of Mexico
+131,STFLOUNNPCOAST,1.1,0.11800000000000001,Avoid Me,Never Eat Me,Greater amberjack Southern Atlantic coast
+8,SABLEFEBSAIGA,1.1,0.585,Avoid Me,Never Eat Me,Sablefish Eastern Bering Sea / Aleutian Islands / Gulf of Alaska
+386,GRAMBERSATLC,1.1,0.531,Avoid Me,Never Eat Me,Snow crab Bering Sea
+353,SNOWCRABBS,1.1,0.373,Avoid Me,Never Eat Me,Starry flounder Northern Pacific Coast
+98,ARGANCHONARG,1.09,0.16899999999999998,Avoid Me,Never Eat Me,Bigeye tuna Central Western Pacific
+334,BIGEYECWPAC,1.09,1.21,Avoid Me,Never Eat Me,Argentine anchoita Northern Argentina
+113,NZLINGWSE,1.08,0.21899999999999997,Avoid Me,Never Eat Me,New Zealand ling Western half of Southeast Australia
+492,BLUEFISHATLC,1.05,0.789,Avoid Me,Never Eat Me,Bluefish Atlantic Coast
+66,PCODWCVANI,1.04,0.469,Avoid Me,Never Eat Me,Pacific cod West Coast of Vancouver Island
+378,SILVERFISHSE,1.03,0.75,Avoid Me,Never Eat Me,Silverfish Southeast Australia
+290,BIGEYEATL,1.02,0.95,Avoid Me,Never Eat Me,Bigeye tuna Atlantic
+404,WPOLLNAVAR,1.02,1.06,Avoid Me,Never Eat Me,Walleye Pollock Navarinsky
+181,TILEMATLC,1.01,0.743,Avoid Me,Never Eat Me,Tilefish Mid-Atlantic Coast
+245,YFINEIO,0.993,1.15,Avoid Me,Never Eat Me,Yellowfin tuna Indian Ocean
+440,BLACKOREOWECR,0.991,0.825,Avoid Me,Never Eat Me,Black oreo West end of Chatham Rise
+255,WPOLLAI,0.9790000000000001,0.0206,Avoid Me,Never Eat Me,Walleye pollock Aleutian Islands
+53,DEEPCHAKESA,0.96,0.382,Avoid Me,Never Eat Me,Deep-water cape hake South Africa
+79,BIGHTREDSE,0.946,1.07,Avoid Me,Never Eat Me,Bight redfish Southeast Australia
+101,LISQUIDATLC,0.938,0.16899999999999998,Avoid Me,Never Eat Me,Longfin inshore squid Atlantic Coast
+89,BSBASSMATLC,0.9159999999999999,1.15,Avoid Me,Never Eat Me,Black sea bass Mid-Atlantic Coast
+51,STMARLINSWPO,0.91,0.81,Avoid Me,Never Eat Me,Striped marlin Southwestern Pacific Ocean
+200,ALBASATL,0.9,1.03,Avoid Me,Never Eat Me,Albacore tuna South Atlantic
+159,TILESATLC,0.899,1.55,Avoid Me,Never Eat Me,Tilefish Southern Atlantic coast
+223,COWCODSCAL,0.889,0.0182,Avoid Me,Never Eat Me,Cowcod Southern California
+452,SMOOTHOREOEPR,0.888,3.35,Never Eat Me,Avoid Me,Smooth Oreo East Pukaki Rise
+188,RSNAPGM,0.885,3.13,Never Eat Me,Avoid Me,Red snapper Gulf of Mexico
+500,ACADREDGOMGB,0.866,0.133,Avoid Me,Never Eat Me,Acadian redfish Gulf of Maine / Georges Bank
+213,SFLOUNMATLC,0.821,0.922,Avoid Me,Never Eat Me,Summer flounder Mid-Atlantic Coast
+20,PSOLEPCOAST,0.813,0.386,Avoid Me,Never Eat Me,Petrale sole Pacific Coast
+18,VSNAPSATLC,0.8009999999999999,1.27,Avoid Me,Never Eat Me,Vermilion snapper Southern Atlantic coast
+72,SMOOTHOREOSLD,0.7929999999999999,0.718,Avoid Me,Never Eat Me,Smooth Oreo Southland
+12,PAUAPAU7,0.792,1.3,Avoid Me,Never Eat Me,New Zealand abalone species New Zealand Area PAU 7
+186,SABLEFPCAN,0.785,1.14,Avoid Me,Never Eat Me,Sablefish Pacific Coast of Canada
+384,RGROUPSATL,0.7490000000000001,1.55,Avoid Me,Never Eat Me,Red grouper South Atlantic
+491,BLUEROCKCAL,0.748,1.19,Avoid Me,Never Eat Me,Blue rockfish California
+178,BSBASSSATL,0.703,1.09,Avoid Me,Never Eat Me,Black sea bass South Atlantic
+330,YFINATL,0.69,1.15,Avoid Me,Never Eat Me,Yellowfin tuna Atlantic
+357,CMACKPCOAST,0.68,0.39,Avoid Me,Never Eat Me,Pacific chub mackerel Pacific Coast
+266,SARDWAZC,0.679,0.72,Avoid Me,Never Eat Me,Sardine West Africa Zone C
+75,ANCHMEDGSA16,0.669,1.62,Avoid Me,Never Eat Me,Anchovy South of Sicily
+242,SWHITSE,0.6629999999999999,0.7,Avoid Me,Never Eat Me,School whiting Southeast Australia
+217,BNSNZ,0.6579999999999999,2.71,Never Eat Me,Avoid Me,Bluenose New Zealand
+410,CUSK4X,0.655,0.531,Avoid Me,Never Eat Me,Cusk NAFO 4X
+474,BNOSESHARATL,0.652,3.5,Never Eat Me,Avoid Me,Blacknose shark Atlantic
+258,CROCKPCOAST,0.617,0.171,Avoid Me,Never Eat Me,Canary rockfish Pacific Coast
+195,NZLINGESE,0.59,0.312,Avoid Me,Never Eat Me,New Zealand ling Eastern half of Southeast Australia
+295,LOBSTERGOM,0.581,1.51,Avoid Me,Never Eat Me,American lobster Gulf of Maine
+309,SNOWGROUPSATLC,0.574,1.28,Avoid Me,Never Eat Me,Snowy grouper Southern Atlantic coast
+320,WINDOWSNEMATL,0.562,1.26,Avoid Me,Never Eat Me,Windowpane Southern New England-Mid Atlantic
+241,GAGGM,0.5579999999999999,0.7,Avoid Me,Never Eat Me,Gag Gulf of Mexico
+57,SARDINWA,0.55,3.04,Never Eat Me,Avoid Me,Blue marlin Atlantic
+161,BMARLINATL,0.55,1.72,Avoid Me,Never Eat Me,Sardinella West Africa
+193,YEYEROCKPCOAST,0.5329999999999999,0.312,Avoid Me,Never Eat Me,Yelloweye rockfish Pacific Coast
+252,OROUGHYSE,0.519,0.305,Avoid Me,Never Eat Me,Orange roughy Southeast Australia
+228,POPERCHPCOAST,0.488,0.45,Avoid Me,Never Eat Me,Blue Warehou Eastern half of Southeast Australia
+43,WAREHOUESE,0.488,0.847,Avoid Me,Never Eat Me,Pacific ocean perch Pacific Coast
+316,GRAMBERGM,0.478,1.53,Avoid Me,Never Eat Me,Greater amberjack Gulf of Mexico
+287,SARDMEDGSA16,0.47,1.07,Avoid Me,Never Eat Me,Sardine South of Sicily
+318,BKCDLFENI,0.429,4.16,Never Eat Me,Avoid Me,Black cardinalfish East coast of North Island
+267,PACBTUNA,0.42,2.71,Never Eat Me,Avoid Me,Pacific bluefin tuna Pacific Ocean
+163,WAREHOUWSE,0.413,0.233,Avoid Me,Never Eat Me,Blue Warehou Western half of Southeast Australia
+360,STMARLINNPAC,0.387,2.68,Never Eat Me,Avoid Me,Striped marlin North Pacific
+487,SBARSHARATL,0.38,3.73,Never Eat Me,Avoid Me,Sandbar shark Atlantic
+428,OROUGHYNZMEC,0.371,2.5,Never Eat Me,Avoid Me,Orange roughy New Zealand Mid East Coast
+2,NZSNAPNZ8,0.353,2.5,Never Eat Me,Avoid Me,New Zealand snapper New Zealand Area 8
+276,WHAKEGBGOM,0.35200000000000004,1.17,Avoid Me,Never Eat Me,White hake Georges Bank / Gulf of Maine
+198,STMARLINWCNPAC,0.35,1.22,Avoid Me,Never Eat Me,Striped marlin Western and Central North Pacific
+286,MORWONGSE,0.313,0.7190000000000001,Avoid Me,Never Eat Me,Jackass morwong Southeast Australia
+36,GEMFISHSE,0.249,0.21,Avoid Me,Never Eat Me,common gemfish Southeast Australia
+465,YELLCCODGOM,0.247,1.73,Avoid Me,Never Eat Me,Yellowtail flounder Cape Cod / Gulf of Maine
+449,SBT,0.23,0.76,Avoid Me,Never Eat Me,Southern bluefin tuna Southern Oceans
+85,CODGOM,0.18100000000000002,4.88,Never Eat Me,Avoid Me,Atlantic cod Gulf of Maine
+354,WINDOWGOMGB,0.17300000000000001,3.91,Never Eat Me,Avoid Me,Windowpane flounder - Gulf of Maine / Georges Bank
+314,CODVIa,0.16899999999999998,4.86,Never Eat Me,Avoid Me,Atlantic cod West of Scotland
+497,WINFLOUNSNEMATL,0.162,0.172,Avoid Me,Never Eat Me,Winter Flounder Southern New England-Mid Atlantic
+475,WEAKFISHATLC,0.131,3.5,Never Eat Me,Avoid Me,Weakfish Atlantic Coast
+187,YELLSNEMATL,0.128,1.61,Avoid Me,Never Eat Me,Yellowtail Flounder Southern New England-Mid Atlantic
+472,CODGB,0.11900000000000001,1.29,Avoid Me,Never Eat Me,Atlantic cod Georges Bank
+323,RSNAPSATLC,0.105,5.04,Never Eat Me,Avoid Me,Red snapper Southern Atlantic coast
+356,BKINGCRABPI,0.0819,3.91,Never Eat Me,Avoid Me,Blue king crab Pribilof Islands
+282,COD2J3KL,0.0663,0.24100000000000002,Avoid Me,Never Eat Me,Atlantic cod NAFO 2J3KL
+448,ATHAL5YZ,0.0264,0.89,Avoid Me,Never Eat Me,Atlantic Halibut NAFO-5YZ
