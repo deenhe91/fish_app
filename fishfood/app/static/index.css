@@ -1,0 +1,77 @@
+
+body {
+
+	background-color: #151B54;
+
+}
+
+
+h1 {
+
+	color:#737CA1;
+    font-family: "Muli";
+    margin-left: 10px;
+
+}
+
+
+p {
+  
+  color: #659EC7;
+  font-family: "Muli";
+  margin-left: 10px;
+
+} 
+
+
+div {
+
+  color: white ;
+  font-family: "Muli";
+  margin-left: 20px;
+
+} 
+
+
+svg {
+
+  font-family: "Muli";
+  background-color: #F3FFFA;
+
+}
+
+
+g {
+
+	background-color: #B3D6DC
+
+}
+
+.axis path,
+.axis line {
+
+	fill: none;
+	stroke: #737CA1;
+	shape-rendering: crispEdges;
+
+	}
+
+.x.axis path {
+
+	display: none;
+
+	}
+
+.y.axis path {
+
+	display: none;
+	
+	}
+
+.line {
+
+	fill: none;
+	stroke: #FF9980;
+	stroke-width: 3px;
+	
+	}
