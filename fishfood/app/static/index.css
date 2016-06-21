@@ -8,7 +8,7 @@ body {
 
 h1 {
 
-	color:#737CA1;
+	color:#D4E6F1;
     font-family: "Muli";
     margin-left: 10px;
 
@@ -17,7 +17,7 @@ h1 {
 
 p {
   
-  color: #659EC7;
+  color: #EAF2F8;
   font-family: "Muli";
   margin-left: 10px;
 
@@ -50,7 +50,7 @@ g {
 .axis path,
 .axis line {
 
-	fill: #000;
+	fill: none;
 	stroke: #737CA1;
 	shape-rendering: crispEdges;
 
@@ -70,8 +70,8 @@ g {
 
 .line {
 
-	fill: #000;
+	fill: none;
 	stroke: #FF9980;
-	stroke-width: 5px;
+	stroke-width: 2px;
 	
 	}
