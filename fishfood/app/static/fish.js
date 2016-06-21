@@ -602,6 +602,140 @@ var availableFish = [
  {'label': 'Haddock Rockall Bank', 'value': 'HADROCK'},
  {'label': 'Argentine hake Southern Argentina', 'value': 'ARGHAKESARG'},
  {'label': 'Trevally New Zealand Areas TRE 7', 'value': 'TREVALLYTRE7'}
- ]
+ ];
+
+
+function doGraph(data){
+  console.log("doing graph...", data["year"])
+
+  var year_array = new Array();
+  var B_array = new Array();
+
+
+
+  for (var key in data.year) { 
+    year_array.push(data.year[key]);
+  }
+
+  
+  for (var key in data['B/Bmsytouse']) { 
+          if (data['B/Bmsytouse'][key]==null) {
+            B_array.push(0); 
+          }
+          else {
+    B_array.push(data['B/Bmsytouse'][key]); 
+  }
+  }
+
+  console.log(year_array);
+  console.log(B_array);
+
+
+  var margin = {top: 20, right: 20, bottom: 30, left: 50},
+      width = 600 - margin.left - margin.right,
+      height = 250 - margin.top - margin.bottom;
+
+  var x = d3.scale.linear()
+    .range([0, width]);
+
+  var y = d3.scale.linear()
+    .range([height, 0]);
+
+  var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+    .tickFormat(d3.format("d"))
+    .tickSize(2);
+
+
+  var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(5)
+    .tickSize(2);
+
+  var line = d3.svg.line()
+    .x(function(d) { 
+      return x(year_array); })
+    .y(function(d) {
+      var value = y(B_array)
+      if (isNaN(value)) {
+        return 0
+      } else {
+        return value
+      } 
+    });
+
+
+  // TODO: Cannot select with d3 until after page load 
+  //  using $( function() { ... do d3 stuff here ... })
+
+  var svg = d3.select( "#viz" ).append( "svg" )
+        .attr( "width" , width + margin.left + margin.right )
+        .attr( "height" , height + margin.top + margin.bottom )
+        .append( "g" )
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+        .style("font-size","12px");
+
+
+    // console.log("year", data.year);
+    // console.log("B", data['B/Bmsytouse'])
+
+      x.domain(d3.extent(data, function(d) { return year_array; }));
+      y.domain(d3.extent(data, function(d) { return B_array; }));
+
+      svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+      svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis)
+
+      .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 4)
+        .attr("dy", ".61em")
+        .style("text-anchor", "end")
+        .text("B/Bmsy");
+
+      svg.append("path")
+        .datum(data)
+        .attr("class", "line")
+        .attr("d", line);
+    
+
+    // function type(d) {
+    //   d.year = d.year;
+    //   d['B/Bmsytouse'] = d['B/Bmsytouse'];
+    //   return d;
+    // }
+
+
+  };
+
+  $(function() {
+    $( "#tags" ).autocomplete({
+      source: availableFish,
+       focus: function( event, ui ) {
+        $( "#tags" ).val( ui.item.label );
+        return false;
+      },
+      select: function(event, ui){
+        $.ajax({
+          type: "POST",
+          url: '/api/searchbyfish',
+          contentType: 'application/json;charset=UTF-8',
+          data: JSON.stringify(ui, null, '\t'),
+          success: function(data) { 
+            var dataObj = JSON.parse(data)
+            doGraph(dataObj)
+          }
+        });
+      }
+    });
+  });
+
 
 

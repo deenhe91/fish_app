@@ -1,7 +1,7 @@
 
 body {
 
-	background-color: #B3D6DC;
+	background-color: #759493;
 
 }
 
@@ -36,7 +36,7 @@ div {
 svg {
 
   font-family: "Muli";
-  background-color: #F3FFFA;
+  background-color: #F4FAED;
 
 }
 
@@ -50,7 +50,7 @@ g {
 .axis path,
 .axis line {
 
-	fill: none;
+	fill: #000;
 	stroke: #737CA1;
 	shape-rendering: crispEdges;
 
@@ -58,20 +58,20 @@ g {
 
 .x.axis path {
 
-	display: none;
+	display: default;
 
 	}
 
 .y.axis path {
 
-	display: none;
+	display: default;
 	
 	}
 
 .line {
 
-	fill: none;
+	fill: #000;
 	stroke: #FF9980;
-	stroke-width: 3px;
+	stroke-width: 5px;
 	
 	}
