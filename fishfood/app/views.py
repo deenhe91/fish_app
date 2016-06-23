@@ -1,6 +1,7 @@
 from flask import render_template, request
 from app import app
-from fishdata.group import getStock
+from fishdata.group import getStock, getCluster
+
 import json
 
 @app.route('/')
@@ -26,10 +27,24 @@ def searchbyfish():
 	# look up the values in parsed data
 
 	fishData = getStock(value)
+	try:
+		fishCluster = getCluster(value).to_json()
+	except:
+		fishCluster = json.dumps({"0": 0})
+	
+	print("cluster", fishCluster)
 
-	print(fishData)
-	# send back those values (and probably some other stuff)
-	response = fishData.to_json()
-	print("response", response)
+	print("fishdata", fishData)
+	
+	# response = fishData.to_json()
+	# print("response", response)
+	response = {
+		'cluster': fishCluster,
+		'data': fishData.to_json()
+	}
 
-	return response
+	return json.dumps(response)
+
+
+
+

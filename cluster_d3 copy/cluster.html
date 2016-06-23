@@ -10,24 +10,25 @@
 
 h1 {
   font-family: "Muli";
-  color:#ECFAF9;
-  margin-left: 40px;
+  color:#405D6D;
+  
 }
 
 p {
   font-family: "Muli";
-  color:#FAFAFA;
-  margin-left: 40px;
+  color:#293D4C;
+
 }
 
 body {
   font: 13px "Muli";
-  background-color: #759493;
+  background-color: #A5CADE;
 }
 
 svg {
   font-family: "Muli";
   background-color: #E2F2F6;
+  margin-left: 40px;
   }
 
 .axis path,
@@ -51,15 +52,37 @@ svg {
   height: 28px;
   pointer-events: none;
 }
+
+/*.center {
+  margin: 0 27%;
+  padding-bottom: 40px;
+  border-bottom: 3px solid rgba(79, 79, 197, 0.5)
+}*/
+.center h1 {
+  margin: 40px 0px 0px 35px !important;
+  font-size: 4em;
+}
+
+.center p {
+  font-size: 1.5em;
+  margin-left: 40px;
+}
+
+/*.svg-center {
+  margin: 2% 28%;
+  padding: 10px 20px 20px 20px;
+}*/
 </style>
 
 <body>
-<h1>Fishfood</h1>
-<p>Which fish can I eat with a clear conscience?</p>
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<div class="center">
+<h1>FISH WATCH</h1>
+<p>Hover over the points to see which fish you I eat with a clear conscience.</p>
 
-<script>
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<!-- <div class = "svg-center">
+ --><script>
+var margin = {top: 20, right: 20, bottom: 30, left: 25},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -81,8 +104,6 @@ var yValue = function(d) { return d["Current_F"];}, // data -> value
     yScale = d3.scale.linear().range([height, 0]), // value -> display
     yMap = function(d) { return yScale(yValue(d));}, // data -> display
     yAxis = d3.svg.axis().scale(yScale).orient("left");
-
-var r
 
 // setup fill color
 var cValue = function(d) { return d.cluster;},
@@ -190,5 +211,6 @@ d3.csv("cluster.csv", function(error, data) {
 });
 
 </script>
+</div>
 </body>
 </html>

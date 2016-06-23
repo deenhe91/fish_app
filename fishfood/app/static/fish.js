@@ -1,13 +1,3 @@
-// var availableFish = [
-// 	{
-// 		value: 12345, // id
-// 		label: "Tuna"
-// 	},
-// 	{
-// 		...
-// 	}
-// ]
-
 var availableFish = [
  {'label': 'Sprat North Sea', 'value': 'SPRATNS'},
  {'label': 'Herring NAFO 4R fall spawners', 'value': 'HERR4RFA'},
@@ -606,17 +596,12 @@ var availableFish = [
 
 
 function doGraph(data){
+
+
   console.log("doing graph...", data)
 
-  var year_array = new Array();
+  var U_array = new Array();
   var B_array = new Array();
-
-
-
-  // for (var key in data.year) { 
-  //   year_array.push(data.year[key]);
-  // }
-
   
   for (var key in data['B/Bmsytouse']) { 
 
@@ -625,80 +610,13 @@ function doGraph(data){
             B_array.push([data.year[key],v]); 
           }
   }
-
   // console.log(year_array);
   console.log(B_array);
 
 
   var margin = {top: 20, right: 20, bottom: 30, left: 50},
       width = 600 - margin.left - margin.right,
-      height = 250 - margin.top - margin.bottom;
-
-  //   var x = d3.scale.linear()
-  //   // time.scale
-  //     .range([0, width]);
-
-  //   var y = d3.scale.linear()
-  //     .range([height, 0]);
-
-  //   var xAxis = d3.svg.axis()
-  //     .scale(x)
-  //     .orient("bottom")
-  //     .tickFormat(d3.format("d"))
-  //     .tickSize(2);
-
-
-  //   var yAxis = d3.svg.axis()
-  //     .scale(y)
-  //     .orient("left")
-  //     .ticks(5)
-  //     .tickSize(2);
-
-  //   var line = d3.svg.line()
-  //     .x(function(d) { return x(d[0]); })
-  //     .y(function(d) { return y(d[1]); });
-
-  //   var svg = d3.select("body").append("svg")
-  //     .attr("width", width + margin.left + margin.right)
-  //     .attr("height", height + margin.top + margin.bottom)
-  //     .append("g")
-  //       .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-  //       .style("font-size","12px");
-
-
-  //   d3.csv("yft_short.csv", type, function(error, data) {
-  //     if (error) throw error;
-  //     console.log("data", data)
-  //     x.domain(d3.extent(data, function(d) { return d[0]; }));
-  //     y.domain(d3.extent(data, function(d) { return d[1]; }));
-
-  //     svg.append("g")
-  //       .attr("class", "x axis")
-  //       .attr("transform", "translate(0," + height + ")")
-  //       .call(xAxis);
-
-  //     svg.append("g")
-  //       .attr("class", "y axis")
-  //       .call(yAxis)
-
-  //     .append("text")
-  //       .attr("transform", "rotate(-90)")
-  //       .attr("y", 4)
-  //       .attr("dy", ".61em")
-  //       .style("text-anchor", "end")
-  //       .text("F/Fmsy");
-
-  //     svg.append("path")
-  //       .datum(data)
-  //       .attr("class", "line")
-  //       .attr("d", line);
-  //   });
-
-    // function type(d) {
-    //   d.year = d.year;
-    //   d.ffmsy = +d.ffmsy;
-    //   return d;
-    // }
+      height = 250 - margin.top - margin.bottom - 10;
 
   var x = d3.scale.linear()
     .range([0, width]);
@@ -726,10 +644,6 @@ function doGraph(data){
       return y(d[1])
     });
 
-
-  // TODO: Cannot select with d3 until after page load 
-  //  using $( function() { ... do d3 stuff here ... })
-
   var svg = d3.select( "#viz" ).append( "svg" )
         .attr( "width" , width + margin.left + margin.right )
         .attr( "height" , height + margin.top + margin.bottom )
@@ -737,9 +651,6 @@ function doGraph(data){
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
         .style("font-size","12px");
 
-
-    // console.log("year", data.year);
-    // console.log("B", data['B/Bmsytouse'])
 
       x.domain(d3.extent(B_array, function(d) { return d[0]; }));
       y.domain(d3.extent(B_array, function(d) { return d[1]; }));
@@ -755,7 +666,7 @@ function doGraph(data){
 
       .append("text")
         .attr("transform", "rotate(-90)")
-        .attr("y", 4)
+        .attr("y", -30)
         .attr("dy", ".61em")
         .style("text-anchor", "end")
         .text("B/Bmsy");
@@ -766,38 +677,65 @@ function doGraph(data){
         .datum(B_array)
         .attr("class", "line")
         .attr("d", line);
-    
-
-    // function type(d) {
-    //   d.year = d.year;
-    //   d['B/Bmsytouse'] = d['B/Bmsytouse'];
-    //   return d;
-    // }
 
 
-  };
 
-  $(function() {
-    $( "#tags" ).autocomplete({
-      source: availableFish,
-       focus: function( event, ui ) {
-        $( "#tags" ).val( ui.item.label );
-        return false;
-      },
-      select: function(event, ui){
-        $.ajax({
-          type: "POST",
-          url: '/api/searchbyfish',
-          contentType: 'application/json;charset=UTF-8',
-          data: JSON.stringify(ui, null, '\t'),
-          success: function(data) { 
-            var dataObj = JSON.parse(data)
-            doGraph(dataObj)
+  for (var key in data['U/Umsytouse']) {
+
+    y = data['U/Umsytouse'][key]
+    if (y!=null) {
+      U_array.push([data.year[key], y]);
+    }
+  }
+
+  console.log("u", U_array)
+
+};
+
+var fishSlogans = {
+  1: ["Stay Away! Do Not Eat Me!", "I am on the Verge of Extinction!", "Eating me would be a poor moral decision"],
+  0: ["I'm 'okay' to put in your Belly", "I taste good and it's not that wrong to eat me", "My population is not doing too badly"],
+  2: ["Bon Apetit", "There are Loooooaaads of us"]
+}
+
+$(function() {
+  $( "#tags" ).autocomplete({
+    source: availableFish,
+     focus: function( event, ui ) {
+      $( "#tags" ).val( ui.item.label );
+      return false;
+    },
+    select: function(event, ui){
+      $.ajax({
+        type: "POST",
+        url: '/api/searchbyfish',
+        contentType: 'application/json;charset=UTF-8',
+        data: JSON.stringify(ui, null, '\t'),
+        success: function(data) { 
+          console.log("data", data)
+          var dataObj = JSON.parse(data)
+          var graphData = JSON.parse(dataObj.data)
+          var clusterData = JSON.parse(dataObj.cluster)
+          console.log("clusterData", clusterData)
+          for (var key in clusterData) { 
+            console.log("key", key)
+            clusterNumber = clusterData[key] 
           }
-        });
-      }
-    });
+          $("#viz").empty()
+          doGraph(graphData)
+          console.log("v", clusterNumber)
+          // console.log("slogans", fishSlogans)
+          var slogan = fishSlogans[clusterNumber][Math.floor(Math.random()*fishSlogans[clusterNumber].length)]
+          $("#viz").append(`<p class="fish-wisdom">${slogan}</p>`)
+          var colors = [ '#EFA133', '#dc5555', '#AAD214']
+          $('body').css('background-color', colors[clusterNumber]);
+          // $("body").addClass(`cluster${clusterNumber}`).removeClass(`cluster${clusterNumber}`)
+          console.log(`cluster${clusterNumber}`)
+        }
+      });
+    }
   });
+});
 
 
 

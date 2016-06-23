@@ -20,6 +20,15 @@ def getStock(stockid):
 
 	return df
 
+
+data2 = pd.read_csv('fishdata/cluster.csv')
+stock2 = data2.groupby('Fish')
+
+def getCluster(stockid):
+	
+	group = stock2.get_group(stockid)
+	cluster = group['cluster']
+	return cluster
 	
 	
 

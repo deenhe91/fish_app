@@ -1,14 +1,14 @@
 
 body {
 
-	background-color: #759493;
+	background-color: #A5CADE;
 
 }
 
 
 h1 {
 
-	color:#D4E6F1;
+	color:#405D6D;
     font-family: "Muli";
     margin-left: 10px;
 
@@ -17,7 +17,7 @@ h1 {
 
 p {
   
-  color: #EAF2F8;
+  color: #293D4C;
   font-family: "Muli";
   margin-left: 10px;
 
@@ -36,7 +36,8 @@ div {
 svg {
 
   font-family: "Muli";
-  background-color: #F4FAED;
+  background-color: #EAF2F8;
+  border: 3px solid #405D6D;
 
 }
 
@@ -63,15 +64,57 @@ g {
 	}
 
 .y.axis path {
-
-	display: default;
-	
-	}
+	display: default;	
+}
 
 .line {
-
 	fill: none;
 	stroke: #FF9980;
-	stroke-width: 2px;
-	
-	}
+	stroke-width: 2px;	
+}
+
+.fish {
+	width: 50px;
+	height: 50px;
+}
+
+.cluster1 {
+	background-color: #dc5555; /*red*/
+}
+
+.cluster2 {
+	background-color: #AAD214; /*green*/
+}
+
+.cluster0 {
+	background-color: #EFA133; /*orange*/
+}
+
+.center {
+	margin: 0 27%;
+	padding-bottom: 40px;
+	border-bottom: 3px solid #293D4C;
+}
+
+.center h1 {
+	margin: 40px 0px 0px 100px !important;
+	font-size: 4em;
+}
+
+.center p {
+	font-size: 2em;
+}
+
+.center label {
+	font-size: 1.6em;
+}
+
+.center input {
+	margin-top:15px;
+	height: 30px;
+	width: 400px;
+}
+
+.svg-center {
+	margin: 2% 28%;
+}
